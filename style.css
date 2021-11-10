@@ -1,0 +1,158 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+textarea{
+    display: block;
+}
+.pages-lists{
+    width: inherit;
+}
+nav{
+    text-align: start;
+    width: 25vw;
+    height: 100vh;
+    padding:0px;
+    margin: 0px;
+    background-color:#f5f4ed;
+    overflow: scroll;
+    
+}
+ul{
+    display: block;
+    font-size: 20px;
+    width: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    margin: 0px;
+    list-style: none;
+    width: calc(25vw - 40px);
+    padding: 1px 20px;
+    display: fel;
+}
+.list-area{
+    display: flex;
+    justify-content: space-between;
+   
+}
+li:hover{
+    background-color: #e3e3de;  
+}
+.editButtons{
+    visibility: hidden;
+}
+li:hover .editButtons{
+     visibility: visible;
+}
+li button {
+    border: none;
+    padding: 0px 3px;
+    font-size: 20px;
+    background-color: transparent;
+}
+article{
+    padding: 0px;
+    margin: 0px;
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.editor{
+    display: block;
+    margin: 0px;
+}
+.inputEditor input {
+    width: 75vw;
+    height: 15px;
+    padding: 17px 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    border-bottom: solid 0.5px rgba(0, 0, 0, 0.2) ;
+}
+.inputEditor input:hover {
+    background-color: whitesmoke;
+}
+.inputEditor input:focus{
+    outline: none;
+}
+.inputEditor textarea {
+    background-color: transparent;
+    border: none;
+    width: 75vw;
+    height: 50vh;
+    font-size: 20px;
+    padding: 2px 10px;
+}
+.inputEditor textarea:hover {
+    background-color: whitesmoke;
+}
+.inputEditor textarea:focus{
+    outline: none;
+}
+.main-header{
+    margin: 0px;
+    padding: 10px 0px 5px 20px;
+    width: inherit;
+    font-size: 20px;
+}
+.main-header:hover{
+    background-color: #e3e3de;
+}
+.addNewButton{
+    width: inherit;
+    display: felx;
+    justify-content: start;
+}
+.addNewButton input{
+    margin: 5px 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    
+}
+.addNewButton :focus{
+    outline: none;
+}
+.inherit-input{
+    margin: 0px 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    background-color: #e3e3de;
+}
+.child-list{
+    display: block;
+}
+.forAddInput form{
+    margin:0px;
+    padding:0px;
+}
+.forAddInput input{
+
+    margin: 0px 0px 0px 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 2px 0px 0px 0px;
+}
+.editButton{
+    display: flex;
+    justify-content: end;
+}
