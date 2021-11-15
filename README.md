@@ -1,9 +1,6 @@
+## Preview
+
 https://user-images.githubusercontent.com/79011228/132659548-c4d22a0a-6fac-404f-b13d-5cb082c8d618.mov
-
-
-## 기본 요구사항
-
-
 
 ## 구현 설명
 + 해당 리스트를 호버하면 삭제와 추가 버튼이 생깁니다.
